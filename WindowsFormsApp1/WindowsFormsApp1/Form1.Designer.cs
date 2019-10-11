@@ -31,7 +31,29 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.parnamebox = new System.Windows.Forms.TextBox();
+            this.textcapBox = new System.Windows.Forms.TextBox();
+            this.nameBox = new System.Windows.Forms.TextBox();
+            this.widthbox = new System.Windows.Forms.TextBox();
+            this.topBox = new System.Windows.Forms.TextBox();
+            this.leftbox = new System.Windows.Forms.TextBox();
+            this.heightBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.taporderBox = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textcapcheck = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,28 +61,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.parnamebox = new System.Windows.Forms.TextBox();
+            this.inctopBox = new System.Windows.Forms.TextBox();
+            this.incleftBox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.incnameBox = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.CompoBox = new System.Windows.Forms.TextBox();
+            this.pathBox = new System.Windows.Forms.TextBox();
+            this.filenameBox = new System.Windows.Forms.TextBox();
+            this.numBox = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
@@ -68,18 +78,28 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.numBox);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.filenameBox);
+            this.panel1.Controls.Add(this.pathBox);
+            this.panel1.Controls.Add(this.CompoBox);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.incnameBox);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.inctopBox);
+            this.panel1.Controls.Add(this.incleftBox);
             this.panel1.Controls.Add(this.parnamebox);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textcapBox);
+            this.panel1.Controls.Add(this.nameBox);
+            this.panel1.Controls.Add(this.widthbox);
+            this.panel1.Controls.Add(this.topBox);
+            this.panel1.Controls.Add(this.leftbox);
+            this.panel1.Controls.Add(this.heightBox);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.bindingNavigator1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.taporderBox);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.textcapcheck);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -92,96 +112,70 @@
             this.panel1.Size = new System.Drawing.Size(1698, 1001);
             this.panel1.TabIndex = 0;
             // 
-            // checkBox1
+            // parnamebox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(927, 500);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 28);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "text";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.parnamebox.Location = new System.Drawing.Point(689, 64);
+            this.parnamebox.Name = "parnamebox";
+            this.parnamebox.Size = new System.Drawing.Size(100, 35);
+            this.parnamebox.TabIndex = 0;
+            this.parnamebox.Text = "Panel1";
             // 
-            // label6
+            // textcapBox
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(60, 368);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 24);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "width";
+            this.textcapBox.Location = new System.Drawing.Point(337, 489);
+            this.textcapBox.Name = "textcapBox";
+            this.textcapBox.Size = new System.Drawing.Size(100, 35);
+            this.textcapBox.TabIndex = 10;
+            this.textcapBox.Text = "tred";
             // 
-            // label5
+            // nameBox
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 325);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 24);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "top";
+            this.nameBox.Location = new System.Drawing.Point(377, 114);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(100, 35);
+            this.nameBox.TabIndex = 2;
+            this.nameBox.Text = "abe";
             // 
-            // label4
+            // widthbox
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 500);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(164, 24);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "text or caption";
+            this.widthbox.Location = new System.Drawing.Point(377, 389);
+            this.widthbox.Name = "widthbox";
+            this.widthbox.Size = new System.Drawing.Size(100, 35);
+            this.widthbox.TabIndex = 8;
+            this.widthbox.Text = "10";
             // 
-            // label3
+            // topBox
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 434);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 24);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "name";
+            this.topBox.Location = new System.Drawing.Point(377, 325);
+            this.topBox.Name = "topBox";
+            this.topBox.Size = new System.Drawing.Size(100, 35);
+            this.topBox.TabIndex = 6;
+            this.topBox.Text = "40";
             // 
-            // label2
+            // leftbox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 286);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 24);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "left";
+            this.leftbox.Location = new System.Drawing.Point(377, 283);
+            this.leftbox.Name = "leftbox";
+            this.leftbox.Size = new System.Drawing.Size(100, 35);
+            this.leftbox.TabIndex = 4;
+            this.leftbox.Text = "30";
             // 
-            // label1
+            // heightBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 237);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "height";
+            this.heightBox.Location = new System.Drawing.Point(379, 424);
+            this.heightBox.Name = "heightBox";
+            this.heightBox.Size = new System.Drawing.Size(100, 35);
+            this.heightBox.TabIndex = 9;
+            this.heightBox.Text = "20";
             // 
-            // button1
+            // label7
             // 
-            this.button1.Location = new System.Drawing.Point(831, 930);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(342, 38);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1329, 169);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 101);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(1103, 493);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 35);
-            this.textBox1.TabIndex = 9;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(500, 53);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 24);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "부모컴포넌트";
             // 
             // bindingNavigator1
             // 
@@ -211,6 +205,31 @@
             this.bindingNavigator1.Size = new System.Drawing.Size(1698, 39);
             this.bindingNavigator1.TabIndex = 10;
             this.bindingNavigator1.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(36, 36);
+            this.bindingNavigatorAddNewItem.Text = "새로 추가";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(52, 36);
+            this.bindingNavigatorCountItem.Text = "/{0}";
+            this.bindingNavigatorCountItem.ToolTipText = "전체 항목 수";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(36, 36);
+            this.bindingNavigatorDeleteItem.Text = "삭제";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -244,16 +263,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "현재 위치";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(52, 36);
-            this.bindingNavigatorCountItem.Text = "/{0}";
-            this.bindingNavigatorCountItem.ToolTipText = "전체 항목 수";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 39);
             // 
             // bindingNavigatorMoveNextItem
@@ -276,85 +288,183 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 39);
             // 
-            // bindingNavigatorAddNewItem
+            // taporderBox
             // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorAddNewItem.Text = "새로 추가";
+            this.taporderBox.Location = new System.Drawing.Point(751, 488);
+            this.taporderBox.Name = "taporderBox";
+            this.taporderBox.Size = new System.Drawing.Size(100, 35);
+            this.taporderBox.TabIndex = 11;
+            this.taporderBox.Text = "5";
             // 
-            // bindingNavigatorDeleteItem
+            // button2
             // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorDeleteItem.Text = "삭제";
+            this.button2.Location = new System.Drawing.Point(1329, 169);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(168, 101);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label7
+            // textcapcheck
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(500, 53);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(164, 24);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "text or caption";
+            this.textcapcheck.AutoSize = true;
+            this.textcapcheck.Location = new System.Drawing.Point(504, 495);
+            this.textcapcheck.Name = "textcapcheck";
+            this.textcapcheck.Size = new System.Drawing.Size(83, 28);
+            this.textcapcheck.TabIndex = 7;
+            this.textcapcheck.Text = "text";
+            this.textcapcheck.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // label6
             // 
-            this.textBox2.Location = new System.Drawing.Point(377, 237);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 35);
-            this.textBox2.TabIndex = 12;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(60, 400);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 24);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "width";
             // 
-            // textBox3
+            // label5
             // 
-            this.textBox3.Location = new System.Drawing.Point(377, 283);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 35);
-            this.textBox3.TabIndex = 13;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(62, 325);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(45, 24);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "top";
             // 
-            // textBox4
+            // label4
             // 
-            this.textBox4.Location = new System.Drawing.Point(377, 325);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 35);
-            this.textBox4.TabIndex = 14;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(51, 500);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(164, 24);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "text or caption";
             // 
-            // textBox5
+            // label3
             // 
-            this.textBox5.Location = new System.Drawing.Point(377, 357);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 35);
-            this.textBox5.TabIndex = 15;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(79, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 24);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "name";
             // 
-            // textBox6
+            // label2
             // 
-            this.textBox6.Location = new System.Drawing.Point(349, 423);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 35);
-            this.textBox6.TabIndex = 16;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(60, 286);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 24);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "left";
             // 
-            // textBox7
+            // label1
             // 
-            this.textBox7.Location = new System.Drawing.Point(337, 489);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 35);
-            this.textBox7.TabIndex = 17;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(62, 424);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "height";
             // 
-            // parnamebox
+            // button1
             // 
-            this.parnamebox.Location = new System.Drawing.Point(689, 64);
-            this.parnamebox.Name = "parnamebox";
-            this.parnamebox.Size = new System.Drawing.Size(100, 35);
-            this.parnamebox.TabIndex = 18;
-            this.parnamebox.Text = "Panel1";
+            this.button1.Location = new System.Drawing.Point(831, 930);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(342, 38);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // inctopBox
+            // 
+            this.inctopBox.Location = new System.Drawing.Point(566, 314);
+            this.inctopBox.Name = "inctopBox";
+            this.inctopBox.Size = new System.Drawing.Size(100, 35);
+            this.inctopBox.TabIndex = 7;
+            this.inctopBox.Text = "0";
+            // 
+            // incleftBox
+            // 
+            this.incleftBox.Location = new System.Drawing.Point(566, 272);
+            this.incleftBox.Name = "incleftBox";
+            this.incleftBox.Size = new System.Drawing.Size(100, 35);
+            this.incleftBox.TabIndex = 5;
+            this.incleftBox.Text = "10";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(644, 495);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(97, 24);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "taporder";
+            // 
+            // incnameBox
+            // 
+            this.incnameBox.Location = new System.Drawing.Point(554, 114);
+            this.incnameBox.Name = "incnameBox";
+            this.incnameBox.Size = new System.Drawing.Size(100, 35);
+            this.incnameBox.TabIndex = 3;
+            this.incnameBox.Text = "123";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(937, 75);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(154, 24);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "컴포넌트이름";
+            // 
+            // CompoBox
+            // 
+            this.CompoBox.Location = new System.Drawing.Point(1096, 72);
+            this.CompoBox.Name = "CompoBox";
+            this.CompoBox.Size = new System.Drawing.Size(100, 35);
+            this.CompoBox.TabIndex = 1;
+            this.CompoBox.Text = "TLabel";
+            // 
+            // pathBox
+            // 
+            this.pathBox.Location = new System.Drawing.Point(185, 790);
+            this.pathBox.Name = "pathBox";
+            this.pathBox.Size = new System.Drawing.Size(100, 35);
+            this.pathBox.TabIndex = 27;
+            this.pathBox.Text = "C:\\";
+            // 
+            // filenameBox
+            // 
+            this.filenameBox.Location = new System.Drawing.Point(487, 790);
+            this.filenameBox.Name = "filenameBox";
+            this.filenameBox.Size = new System.Drawing.Size(100, 35);
+            this.filenameBox.TabIndex = 28;
+            this.filenameBox.Text = "Unit1.dfm";
+            // 
+            // numBox
+            // 
+            this.numBox.Location = new System.Drawing.Point(1237, 765);
+            this.numBox.Name = "numBox";
+            this.numBox.Size = new System.Drawing.Size(100, 35);
+            this.numBox.TabIndex = 29;
+            this.numBox.Text = "4";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(939, 776);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 24);
+            this.label10.TabIndex = 30;
+            this.label10.Text = "name";
             // 
             // Form1
             // 
@@ -376,7 +486,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox textcapcheck;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -385,7 +495,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox taporderBox;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
@@ -399,13 +509,23 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.TextBox parnamebox;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textcapBox;
+        private System.Windows.Forms.TextBox nameBox;
+        private System.Windows.Forms.TextBox widthbox;
+        private System.Windows.Forms.TextBox topBox;
+        private System.Windows.Forms.TextBox leftbox;
+        private System.Windows.Forms.TextBox heightBox;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox inctopBox;
+        private System.Windows.Forms.TextBox incleftBox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox incnameBox;
+        private System.Windows.Forms.TextBox CompoBox;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox filenameBox;
+        private System.Windows.Forms.TextBox pathBox;
+        private System.Windows.Forms.TextBox numBox;
+        private System.Windows.Forms.Label label10;
     }
 }
 
